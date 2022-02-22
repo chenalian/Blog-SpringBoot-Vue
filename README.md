@@ -4,7 +4,7 @@
 ```
 >本项目是借鉴于：https://gitee.com/zhang_hanzhe/blog
 
->项目的演示地址：
+>项目的演示地址：https://www.bilibili.com/video/BV1zL4y1g7oh?spm_id_from=333.999.0.0
 
 >项目详解地址：https://blog.csdn.net/qq_41593124/article/details/123067458
 #### 项目的部署：
