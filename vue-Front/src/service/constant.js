@@ -2,8 +2,9 @@
 export const AES_KEY = "1234567890hijklm";
 export const AES_IV = "1234567890abcdef";
 // 请求服务器地址
-export const REQUEST_BASE_URL = "http://127.0.0.1:8080/api";
-// export const REQUEST_BASE_URL = "/api";
+
+export const REQUEST_BASE_URL = "http://127.0.0.1:8080/api"; // 前后端分离
+// export const REQUEST_BASE_URL = "/api"; //前后端不分离
 export const REQUEST_TIMEOUT = 8000;
 // 响应状态码
 export const RESULT_CODE = {

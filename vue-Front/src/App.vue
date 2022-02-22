@@ -52,7 +52,7 @@
 
 <style scoped>
     /* 行走喵 */
-    #marco{
+    /* #marco{
         width: 1325px;
         height: 500px;
         margin: 0 auto;
@@ -91,5 +91,5 @@
     @keyframes sprite-animation { 
             from { background-position: 0 0; }
             to { background-position: -8120px 0; }
-        }
+        } */
 </style>
