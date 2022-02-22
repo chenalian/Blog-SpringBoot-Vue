@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="site.hanzhe.dao.BlogDao">
+    <update id="updateBlogViewCount" parameterType="string">
+        UPDATE `bl_blog`
+          SET
+            view_count = view_count + 1
+          WHERE id = #{id}
+    </update>
+</mapper>

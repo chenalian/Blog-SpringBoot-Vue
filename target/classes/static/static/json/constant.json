@@ -1,0 +1,14 @@
+{
+    "AES_KEY": "B3506677E4C55E91",
+    "AES_IV": "FAD4778A72500750",
+    "REQUEST_BASE_URL": "http://blog.hanzhe.site/api",
+    "REQUEST_TIMEOUT": 8000,
+    "RESULT_CODE": {
+        "SUCCESS": 100,
+        "BLOG_NOT_FOUND": 201,
+        "TOKEN_ERROR": 202
+    },
+    "NOT_PRE_PAGE_MESSAGE": "已经是第一页了",
+    "NOT_NEXT_PAGE_MESSAGE": "已经是最后一页了",
+    "PAGE_NUM_FAIL_MESSAGE": "页码不合法或不在范围内"
+}

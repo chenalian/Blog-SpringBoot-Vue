@@ -1,0 +1,36 @@
+spring:
+  # 数据库连接地址
+  datasource:
+    # type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/blog?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  # 设置文件上传最大值
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 6MB
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 300
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1
+# 配置MyBatisPlus
+mybatis-plus:
+  mapper-locations: classpath:mappers/*Mapper.xml
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+pagehelper:
+  # 使用MySQL数据库
+  helper-dialect: mysql
+  # 开启合理化，避免查询不存在的页码
+  reasonable: true
+server:
+  port: 8080
