@@ -1,0 +1,74 @@
+/* pre 代码块样式 */
+#content pre code {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* `` Code代码块高亮 */
+#content p>code, #content li>code {
+    padding: 5px 6px;
+    margin: 0 2px;
+    color: #d83b64;
+    background-color: #f9f2f4;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#content img {
+    max-width: 100%;
+    border-radius: 3px;
+    /* border: 2px solid rgba(19, 211, 67, 0.2); */
+}
+
+/* 文本，标题的基本样式 */
+#content p, #content li {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 15px;
+}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* 将斜体修改为红色粗体 */
+#content em {
+    font-style: normal;
+    margin: 0 3px;
+    color: red;
+    font-weight: 800;
+}
+
+/* > 引用的样式 */
+#content blockquote {
+    margin: 25px 0 14px 0;
+    border-left: 6px solid #32e032;
+    padding: 9px 0 9px 12px;
+    background-color: rgb(243, 243, 243);
+}
+#content blockquote p {
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* 列表样式 */
+#content li, #content li p {
+    margin-bottom: 5px;
+}
+#content ol, #content ul {
+    padding-left: 20px;
+}
+
+/* 超链接样式 */
+#content a:hover {
+    color: #f60;
+}
+
+.toc-container ol {
+    list-style: none;
+    padding-left: 15px;
+}

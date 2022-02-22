@@ -1,0 +1,14 @@
+{
+    "userNav": [
+        {"icon": "home", "name": "首页", "url": "/index.html"},
+        {"icon": "list ul", "name": "分类", "url": "/type.html"},
+        {"icon": "comment", "name": "留言板", "url": "/message.html"},
+        {"icon": "info", "name": "关于我", "url": "/about.html"}
+    ],
+    "adminNav": [
+        { "icon": "home", "name": "博客管理", "url": "/admin/blogs.html" },
+        { "icon": "list ul", "name": "分类管理", "url": "/admin/type.html" },
+        { "icon": "comment", "name": "处理留言", "url": "/admin/message.html" },
+        { "icon": "cog", "name": "系统设置", "url": "/admin/settings.html" }
+    ]
+}
