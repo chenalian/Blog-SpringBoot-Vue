@@ -6,7 +6,7 @@
 
 >项目的演示地址：
 
->项目详解地址：
+>项目详解地址：https://blog.csdn.net/qq_41593124/article/details/123067458
 #### 项目的部署：
 >1.git clone git@github.com:chenalian/Blog-SpringBoot-Vue.git
 
